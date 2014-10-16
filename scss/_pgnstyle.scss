@@ -25,12 +25,44 @@ header {
 		margin-bottom: 1em;
 	}
 }
+
+.top-bar .title-area .name:hover{
+	background-color: $pgn-green;
+}
 .page-block{
 	padding-top: 10%;
 	padding-bottom: 10%;
 	margin-top: 0;
 	margin-bottom: 0;
+}
 
+.green-block {
+	color: white;
+	background-color: $pgn-green;
+	h1, h2, h3, h4{
+		color: white;
+	}
+}
+.red-block {
+	color: white;
+	background-color: $pgn-red;
+	h1, h2, h3, h4{
+		color: white;
+	}
+}
+.blue-block {
+	color: white;
+	background-color: $pgn-blue;
+	h1, h2, h3, h4{
+		color: white;
+	}
+}
+.grey-block {
+	color: white;
+	background-color: $pgn-grey;
+	h1, h2, h3, h4{
+		color: white;
+	}
 }
 
 .page-block h2{
@@ -108,33 +140,9 @@ header {
 	}
 }
 
-.block-red {
-	background-color: $pgn-red;
-	color: white;
-	h2 {
-		color: white;
-	}
-}
-
-.block-green {
-	background-color: $pgn-green;
-	color: white;
-	h2 {
-		color: white;
-	}
-}
-
-.block-blue {
-	background-color: $pgn-blue;
-	color: white;
-	h2 {
-		color: white;
-	}
-}
-
 
 footer{
-	background: white;
+	@extend .grey-block;
 }
 
 #social-media-icons{

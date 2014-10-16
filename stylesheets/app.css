@@ -9947,7 +9947,7 @@ meta.foundation-mq-topbar {
 /* line 112, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: #404040;
 }
 /* line 116, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -9987,7 +9987,7 @@ meta.foundation-mq-topbar {
   height: 65px;
   line-height: 65px;
   position: relative;
-  background: #333333;
+  background: #404040;
   margin-bottom: 0;
 }
 /* line 155, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10104,7 +10104,7 @@ meta.foundation-mq-topbar {
 }
 /* line 263, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: #404040;
 }
 /* line 266, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -10134,7 +10134,7 @@ meta.foundation-mq-topbar {
 /* line 294, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #202020;
   clear: both;
   height: 1px;
   width: 100%;
@@ -10276,7 +10276,7 @@ meta.foundation-mq-topbar {
 /* line 339, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
-  background: #272727;
+  background: #a9cf37;
   color: white;
 }
 /* line 349, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10400,7 +10400,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 443, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #404040;
     overflow: visible;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10434,7 +10434,7 @@ meta.foundation-mq-topbar {
   }
   /* line 461, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: #404040;
   }
 
   /* line 464, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10466,19 +10466,19 @@ meta.foundation-mq-topbar {
   /* line 487, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
-    background: #272727;
+    background: #a9cf37;
     color: white;
   }
   /* line 496, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 21.66667px;
     line-height: 65px;
-    background: #333333;
+    background: #404040;
   }
   /* line 500, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
-    background: #272727;
+    background: #a9cf37;
   }
   /* line 509, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -10574,7 +10574,7 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: white;
     background-color: #555555;
-    background: #272727;
+    background: #a9cf37;
   }
   /* line 597, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -10590,14 +10590,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #595959;
     clear: none;
     height: 65px;
     width: 0;
   }
   /* line 620, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
+    background: #404040;
     padding: 0 21.66667px;
     height: 65px;
   }
@@ -10623,7 +10623,7 @@ meta.foundation-mq-topbar {
   /* line 650, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
-    background: #272727;
+    background: #a9cf37;
     color: white;
   }
   /* line 659, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -11746,7 +11746,12 @@ header #main-logo {
   margin-bottom: 1em;
 }
 
-/* line 28, ../scss/_pgnstyle.scss */
+/* line 29, ../scss/_pgnstyle.scss */
+.top-bar .title-area .name:hover {
+  background-color: #a9cf37;
+}
+
+/* line 32, ../scss/_pgnstyle.scss */
 .page-block {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -11754,12 +11759,52 @@ header #main-logo {
   margin-bottom: 0;
 }
 
-/* line 36, ../scss/_pgnstyle.scss */
+/* line 39, ../scss/_pgnstyle.scss */
+.green-block {
+  color: white;
+  background-color: #a9cf37;
+}
+/* line 42, ../scss/_pgnstyle.scss */
+.green-block h1, .green-block h2, .green-block header .tagline, header .green-block .tagline, .green-block h3, .green-block h4 {
+  color: white;
+}
+
+/* line 46, ../scss/_pgnstyle.scss */
+.red-block {
+  color: white;
+  background-color: #dd4a1f;
+}
+/* line 49, ../scss/_pgnstyle.scss */
+.red-block h1, .red-block h2, .red-block header .tagline, header .red-block .tagline, .red-block h3, .red-block h4 {
+  color: white;
+}
+
+/* line 53, ../scss/_pgnstyle.scss */
+.blue-block {
+  color: white;
+  background-color: #72b5e3;
+}
+/* line 56, ../scss/_pgnstyle.scss */
+.blue-block h1, .blue-block h2, .blue-block header .tagline, header .blue-block .tagline, .blue-block h3, .blue-block h4 {
+  color: white;
+}
+
+/* line 60, ../scss/_pgnstyle.scss */
+.grey-block, footer {
+  color: white;
+  background-color: #404040;
+}
+/* line 63, ../scss/_pgnstyle.scss */
+.grey-block h1, footer h1, .grey-block h2, footer h2, .grey-block header .tagline, header .grey-block .tagline, footer header .tagline, header footer .tagline, .grey-block h3, footer h3, .grey-block h4, footer h4 {
+  color: white;
+}
+
+/* line 68, ../scss/_pgnstyle.scss */
 .page-block h2, .page-block header .tagline, header .page-block .tagline {
   text-transform: uppercase;
 }
 
-/* line 40, ../scss/_pgnstyle.scss */
+/* line 72, ../scss/_pgnstyle.scss */
 #block-about {
   /*background-image: url('../img/sample-tf2meeting3.jpg');*/
   background-color: #a9cf37;
@@ -11769,12 +11814,12 @@ header #main-logo {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 48, ../scss/_pgnstyle.scss */
+/* line 80, ../scss/_pgnstyle.scss */
 #block-about h2, #block-about header .tagline, header #block-about .tagline {
   color: white;
 }
 
-/* line 53, ../scss/_pgnstyle.scss */
+/* line 85, ../scss/_pgnstyle.scss */
 #block-featured-streamers {
   /*background-image: url('../img/sample-tf2meeting4.jpg');
   filter: grayscale(1);*/
@@ -11784,7 +11829,7 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 65, ../scss/_pgnstyle.scss */
+/* line 97, ../scss/_pgnstyle.scss */
 #block-pgn-legends {
   background-image: url("../img/sample-tf2meeting3.jpg");
   background-color: #dd4a1f;
@@ -11794,12 +11839,12 @@ header #main-logo {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 73, ../scss/_pgnstyle.scss */
+/* line 105, ../scss/_pgnstyle.scss */
 #block-pgn-legends h2, #block-pgn-legends header .tagline, header #block-pgn-legends .tagline {
   color: white;
 }
 
-/* line 78, ../scss/_pgnstyle.scss */
+/* line 110, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon {
   background-image: url("../img/sample-tf2meeting2.jpg");
   background-color: #404040;
@@ -11809,83 +11854,48 @@ header #main-logo {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 86, ../scss/_pgnstyle.scss */
+/* line 118, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon p {
   text-shadow: 0 1px 1px black;
 }
-/* line 89, ../scss/_pgnstyle.scss */
+/* line 121, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon h2, #block-pgn-pokemon header .tagline, header #block-pgn-pokemon .tagline {
   color: white;
 }
 
-/* line 94, ../scss/_pgnstyle.scss */
+/* line 126, ../scss/_pgnstyle.scss */
 #block-league-worlds {
   background-color: #72b5e3;
   color: white;
 }
-/* line 97, ../scss/_pgnstyle.scss */
+/* line 129, ../scss/_pgnstyle.scss */
 #block-league-worlds h2, #block-league-worlds header .tagline, header #block-league-worlds .tagline {
   color: white;
 }
 
-/* line 102, ../scss/_pgnstyle.scss */
+/* line 134, ../scss/_pgnstyle.scss */
 #block-head {
   background-color: #a9cf37;
   color: white;
 }
-/* line 105, ../scss/_pgnstyle.scss */
+/* line 137, ../scss/_pgnstyle.scss */
 #block-head h2, #block-head header .tagline, header #block-head .tagline {
   font-weight: 300;
   color: white;
 }
 
-/* line 111, ../scss/_pgnstyle.scss */
-.block-red {
-  background-color: #dd4a1f;
-  color: white;
-}
-/* line 114, ../scss/_pgnstyle.scss */
-.block-red h2, .block-red header .tagline, header .block-red .tagline {
-  color: white;
-}
-
-/* line 119, ../scss/_pgnstyle.scss */
-.block-green {
-  background-color: #a9cf37;
-  color: white;
-}
-/* line 122, ../scss/_pgnstyle.scss */
-.block-green h2, .block-green header .tagline, header .block-green .tagline {
-  color: white;
-}
-
-/* line 127, ../scss/_pgnstyle.scss */
-.block-blue {
-  background-color: #72b5e3;
-  color: white;
-}
-/* line 130, ../scss/_pgnstyle.scss */
-.block-blue h2, .block-blue header .tagline, header .block-blue .tagline {
-  color: white;
-}
-
-/* line 136, ../scss/_pgnstyle.scss */
-footer {
-  background: white;
-}
-
-/* line 141, ../scss/_pgnstyle.scss */
+/* line 149, ../scss/_pgnstyle.scss */
 #social-media-icons li a {
   color: #404040;
   transition: color .2s;
 }
-/* line 145, ../scss/_pgnstyle.scss */
+/* line 153, ../scss/_pgnstyle.scss */
 #social-media-icons li a:hover {
   color: white;
   transition: color .2s;
 }
 
-/* line 151, ../scss/_pgnstyle.scss */
+/* line 159, ../scss/_pgnstyle.scss */
 ul.event-box {
   border-radius: 3px;
   display: inline-block;
@@ -11898,13 +11908,13 @@ ul.event-box {
   color: #404040;
   transition: background-color .2s;
 }
-/* line 162, ../scss/_pgnstyle.scss */
+/* line 170, ../scss/_pgnstyle.scss */
 ul.event-box:hover {
   background-color: #404040;
   color: white;
   transition: background-color .2s;
 }
-/* line 167, ../scss/_pgnstyle.scss */
+/* line 175, ../scss/_pgnstyle.scss */
 ul.event-box li.date {
   float: left;
   display: block;
@@ -11914,7 +11924,7 @@ ul.event-box li.date {
   text-transform: uppercase;
   width: 3em;
 }
-/* line 176, ../scss/_pgnstyle.scss */
+/* line 184, ../scss/_pgnstyle.scss */
 ul.event-box li.title {
   display: block;
   float: left;
@@ -11922,25 +11932,25 @@ ul.event-box li.title {
   font-weight: 700;
 }
 
-/* line 184, ../scss/_pgnstyle.scss */
+/* line 192, ../scss/_pgnstyle.scss */
 .event-modal {
   background-color: #404040;
   color: white;
 }
-/* line 185, ../scss/_pgnstyle.scss */
+/* line 193, ../scss/_pgnstyle.scss */
 .event-modal#pokemon-event-modal {
   background-color: #404040;
 }
-/* line 188, ../scss/_pgnstyle.scss */
+/* line 196, ../scss/_pgnstyle.scss */
 .event-modal#pgn-legends-event-modal {
   background-color: #dd4a1f;
 }
-/* line 193, ../scss/_pgnstyle.scss */
+/* line 201, ../scss/_pgnstyle.scss */
 .event-modal h2, .event-modal header .tagline, header .event-modal .tagline {
   text-transform: uppercase;
   color: white;
 }
-/* line 197, ../scss/_pgnstyle.scss */
+/* line 205, ../scss/_pgnstyle.scss */
 .event-modal h4 {
   color: white;
 }
