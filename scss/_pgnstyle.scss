@@ -1,0 +1,201 @@
+header {
+	min-height: 600px;
+	background: url("../img/sample-tf2meeting.jpg") white;
+	background-blend-mode: none;
+	background-position: center 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	.row .columns .row {
+		margin-top: 10%;
+	}
+	h1,h2{
+		color: white;
+	}
+	.tagline {
+		@extend h2;
+		font-family: 'Quicksand', serif;
+		font-weight: 300;
+		margin-bottom: 2em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	#main-logo {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+.page-block{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.page-block h2{
+	text-transform: uppercase;
+}
+
+#block-about {
+	/*background-image: url('../img/sample-tf2meeting3.jpg');*/
+	background-color: $pgn-green;
+	background-blend-mode: lighten;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+#block-featured-streamers {
+	/*background-image: url('../img/sample-tf2meeting4.jpg');
+	filter: grayscale(1);*/
+	background-color: white;
+	
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	h2{
+	}
+}
+
+#block-pgn-legends {
+	background-image: url('../img/sample-tf2meeting3.jpg');
+	background-color: $pgn-red;
+	background-blend-mode: lighten;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+#block-pgn-pokemon {
+	background-image: url('../img/sample-tf2meeting2.jpg');
+	background-color: $pgn-grey;
+	background-blend-mode: lighten;
+	background-position: center 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	p {
+		text-shadow: 0 1px 1px black;
+	}
+	h2 {
+		color: white;
+	}
+}
+
+#block-league-worlds {
+	background-color: $pgn-blue;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+#block-head {
+	background-color: $pgn-green;
+	color: white;
+	h2{
+		font-weight: 300;
+		color: white;
+	}
+}
+
+.block-red {
+	background-color: $pgn-red;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+.block-green {
+	background-color: $pgn-green;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+.block-blue {
+	background-color: $pgn-blue;
+	color: white;
+	h2 {
+		color: white;
+	}
+}
+
+
+footer{
+	background: white;
+}
+
+#social-media-icons{
+	li a{
+		color: $pgn-grey;
+		transition: color .2s;
+	}
+	li a:hover{
+		color: white;
+		transition: color .2s;
+	}
+}
+
+ul.event-box {
+	border-radius: 3px;
+	display: inline-block;
+	list-style: none;
+	color: white;
+	background: #fff;
+	padding: 1em;
+	margin-left: 0;
+	width: 300px;
+	color: $pgn-grey;
+	transition: background-color .2s;
+	&:hover{
+		background-color: $pgn-grey;
+		color: white;
+		transition: background-color .2s;
+	}
+	li.date{
+		float: left;
+		display: block;
+		font-weight: 700;
+		font-size: .8em;
+		line-height: 100%;
+		text-transform: uppercase;
+		width: 3em;
+	}
+	li.title{
+		display: block;
+		float: left;
+		font-size: 1em;
+		font-weight: 700; 
+	}
+}
+
+.event-modal {
+	&#pokemon-event-modal{
+		background-color: $pgn-grey;
+	}
+	&#pgn-legends-event-modal {
+		background-color: $pgn-red;
+	}
+	background-color: $pgn-grey;
+	color: white;
+	h2{
+		text-transform: uppercase;
+		color: white;
+	}
+	h4{
+		color: white;
+	}
+}
+
