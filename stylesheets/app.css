@@ -11927,18 +11927,51 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 193, ../scss/_pgnstyle.scss */
+/* line 192, ../scss/_pgnstyle.scss */
+.post-title {
+  display: block;
+  height: 300px;
+  background-blend-mode: lighten;
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 199, ../scss/_pgnstyle.scss */
+.post-title h2, .post-title header .tagline, header .post-title .tagline {
+  position: absolute;
+  bottom: .5em;
+}
+/* line 203, ../scss/_pgnstyle.scss */
+.post-title span {
+  position: absolute;
+  bottom: .5em;
+  margin-left: 2em;
+}
+
+/* line 210, ../scss/_pgnstyle.scss */
+.post-content {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: white;
+  color: black;
+}
+
+/* line 218, ../scss/_pgnstyle.scss */
 #social-media-icons li a {
   color: #404040;
   transition: color .2s;
 }
-/* line 197, ../scss/_pgnstyle.scss */
+/* line 222, ../scss/_pgnstyle.scss */
 #social-media-icons li a:hover {
   color: white;
   transition: color .2s;
 }
+/* line 227, ../scss/_pgnstyle.scss */
+#social-media-icons li a:active {
+  color: white;
+}
 
-/* line 203, ../scss/_pgnstyle.scss */
+/* line 232, ../scss/_pgnstyle.scss */
 ul.event-box, ul.event-box-clear {
   border-radius: 3px;
   display: inline-block;
@@ -11951,13 +11984,13 @@ ul.event-box, ul.event-box-clear {
   color: #404040;
   transition: background-color .2s;
 }
-/* line 214, ../scss/_pgnstyle.scss */
+/* line 243, ../scss/_pgnstyle.scss */
 ul.event-box:hover, ul.event-box-clear:hover {
   background-color: #404040;
   color: white;
   transition: background-color .2s;
 }
-/* line 219, ../scss/_pgnstyle.scss */
+/* line 248, ../scss/_pgnstyle.scss */
 ul.event-box li.date, ul.event-box-clear li.date {
   float: left;
   display: block;
@@ -11967,7 +12000,7 @@ ul.event-box li.date, ul.event-box-clear li.date {
   text-transform: uppercase;
   width: 3em;
 }
-/* line 228, ../scss/_pgnstyle.scss */
+/* line 257, ../scss/_pgnstyle.scss */
 ul.event-box li.title, ul.event-box-clear li.title {
   display: block;
   float: left;
@@ -11975,46 +12008,46 @@ ul.event-box li.title, ul.event-box-clear li.title {
   font-weight: 700;
 }
 
-/* line 236, ../scss/_pgnstyle.scss */
+/* line 265, ../scss/_pgnstyle.scss */
 ul.event-box-clear {
   background: none;
   color: inherit;
 }
-/* line 240, ../scss/_pgnstyle.scss */
+/* line 269, ../scss/_pgnstyle.scss */
 ul.event-box-clear:hover {
   background-color: inherit;
   color: inherit;
   transition: background-color .2s;
 }
 
-/* line 247, ../scss/_pgnstyle.scss */
+/* line 276, ../scss/_pgnstyle.scss */
 .event-modal {
   background-color: #404040;
   color: white;
 }
-/* line 248, ../scss/_pgnstyle.scss */
+/* line 277, ../scss/_pgnstyle.scss */
 .event-modal#pokemon-event-modal {
   background-color: #404040;
 }
-/* line 251, ../scss/_pgnstyle.scss */
+/* line 280, ../scss/_pgnstyle.scss */
 .event-modal#pgn-legends-event-modal {
   background-color: #dd4a1f;
 }
-/* line 256, ../scss/_pgnstyle.scss */
+/* line 285, ../scss/_pgnstyle.scss */
 .event-modal h2, .event-modal header .tagline, header .event-modal .tagline {
   text-transform: uppercase;
   color: white;
 }
-/* line 260, ../scss/_pgnstyle.scss */
+/* line 289, ../scss/_pgnstyle.scss */
 .event-modal h4 {
   color: white;
 }
 
-/* line 265, ../scss/_pgnstyle.scss */
+/* line 294, ../scss/_pgnstyle.scss */
 a.back-arrow {
   color: white;
 }
-/* line 267, ../scss/_pgnstyle.scss */
+/* line 296, ../scss/_pgnstyle.scss */
 a.back-arrow:hover, a.back-arrow:active {
   color: inherit;
 }
