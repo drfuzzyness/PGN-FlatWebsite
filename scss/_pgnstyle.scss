@@ -1,7 +1,7 @@
 header {
 	min-height: 600px;
-	background: url("../img/sample-tf2meeting.jpg") white;
-	background-blend-mode: none;
+	background: url("../img/sample-tf2meeting.jpg") $pgn-green;
+	//background-blend-mode: lighten;
 	background-position: center 25%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,8 +26,13 @@ header {
 	}
 }
 
-.top-bar .title-area .name:hover{
-	background-color: $pgn-green;
+.top-bar {
+	.title-area .name:hover{
+		background-color: $pgn-grey;
+	}
+	.top-bar-section .right .has-form a {
+		margin-top: 10px;
+	}
 }
 .page-block{
 	padding-top: 10%;
@@ -65,6 +70,13 @@ header {
 	}
 }
 
+.white-block {
+	background-color: white;
+}
+
+.rounded {
+	border-radius: 50%;
+}
 .page-block h2{
 	text-transform: uppercase;
 }
@@ -95,16 +107,13 @@ header {
 }
 
 #block-pgn-legends {
+	@extend .red-block;
 	background-image: url('../img/sample-tf2meeting3.jpg');
 	background-color: $pgn-red;
 	background-blend-mode: lighten;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: white;
-	h2 {
-		color: white;
-	}
 }
 
 #block-pgn-pokemon {
@@ -140,6 +149,41 @@ header {
 	}
 }
 
+#block-minecraft {
+	@extend .green-block;
+	background-image: url('../img/sample-minecraft1.png');
+	//background-blend-mode: darken;
+	background-position: center 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block-tf2 {
+	@extend .red-block;
+	background-image: url('../img/sample-tf2.jpg');
+	background-blend-mode: lighten;
+	background-position: center 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block-chivalry {
+	@extend .blue-block;
+	background-image: url('../img/sample-cmw2.jpg');
+	background-blend-mode: lighten;
+	background-position: center 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block-unturned {
+	@extend .green-block;
+	background-image: url('../img/sample-unturned.jpg');
+	background-blend-mode: darken;
+	background-position: center 10%;
+	background-size: cover;
+	background-repeat: no-repeat
+}
 
 footer{
 	@extend .grey-block;
@@ -189,6 +233,17 @@ ul.event-box {
 	}
 }
 
+ul.event-box-clear{
+	@extend ul.event-box;
+	background: none;
+	color: inherit;
+	&:hover{
+		background-color: inherit;
+		color: inherit;
+		transition: background-color .2s;
+	}
+}
+
 .event-modal {
 	&#pokemon-event-modal{
 		background-color: $pgn-grey;
@@ -207,3 +262,10 @@ ul.event-box {
 	}
 }
 
+a.back-arrow {
+	color: white;
+	&:hover, &:active{
+		color: inherit;
+
+	}
+}

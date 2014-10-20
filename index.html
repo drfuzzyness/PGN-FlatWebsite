@@ -32,10 +32,48 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- Fontawesome Jazz -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     </head>
   <body>
+
+    <div id="registerModal" class="reveal-modal" data-reveal>
+      <h2>Regsiter</h2>
+      <a class="close-reveal-modal">&#215;</a>
+      <div class="row">
+        <form class="large-6 columns">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <label>Your Name
+                <input type="text" placeholder="John Sexton">
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <label>Your @nyu.edu Email
+              <input type="text" placeholder="you@nyu.edu">
+            </label>
+          </div>
+          <div class="row collapse">
+            <div class="medium-12 columns">
+              <a href="#" class="button radius">Register</a>
+              We'll email you your password
+            </div>
+          </div>
+        </form>
+        <div class="large-5 columns">
+          <a href="#"><img src="img/full-logo-color-no-margin-01.svg" alt="Poly Gaming Network"></a>
+          <h3>Why Register?</h3>
+          <ol>
+            <li>Register for events</li>
+            <li>Get updates for PGN</li>
+            <li>Verify your NYU Student status to play on servers</li>
+            <li>Join the mailing list</li>
+            <li>Find other players who want to play the games you play</li>
+        </div>
+      </div>   
+    </div>
+
     <div id="loginModal" class="reveal-modal" data-reveal>
       <h2>Login</h2>
       <a class="close-reveal-modal">&#215;</a>
@@ -56,59 +94,18 @@
           <div class="row collapse">
             <div class="medium-12 columns">
               <a href="#" class="button radius">Login</a>
-              <a href="#" class="button radius secondary">Register</a>
+              <a href="#" class="button radius secondary" data-reveal-id="registerModal">Register</a>
             </div>
 
           </div>
         </form>
-        <div class="large-6 columns">
-          <a href="#"><img src="img/full-logo-color.svg" alt="Poly Gaming Network"></a>
+        <div class="large-5 columns">
+          <a href="#"><img src="img/full-logo-color-no-margin-01.svg" alt="Poly Gaming Network"></a>
         </div>
       </div>   
     </div>
 
-    <div id="header-nav">
-      <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="index.html"><img src="img/menubar-logo-vect.svg" alt="Poly Gaming Network"></a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon">
-            <a href="index.html">
-              <span>Menu</span>
-            </a>
-          </li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="left">
-            <li class="">
-              <a href="games/index.html">Games</a>
-            </li>
-            <li>
-              <a href="events/index.html">Events</a>
-            </li>
-            <li>
-              <a href="news/index.html">News</a>
-            </li>
-            <li>
-              <a href="about/index.html">About</a>
-            </li>
-            <li>
-              <a href="https://polygamingnetwork.spreadshirt.com/" target="_blank">Store <i class="fa fa-external-link-square"></i> </a>
-            </li>
-          </ul>
-          <ul class="right">
-            <li>
-              <a href="https://www.facebook.com/groups/781601601878301/" target="_blank">Facebook Group <i class="fa fa-external-link-square"></i> </a>
-            </li>
-            <li class="has-form">
-              <a href="#" class="button radius" data-reveal-id="loginModal">Login</a>
-            </li>
-
-          </ul>
-        </section>
-      </nav>
-    </div>
+    
 
     <header>
       <div class="row">
@@ -128,7 +125,8 @@
             </div>
           </div>-->
           <div class="row">
-            <div class="small-5 large-centered columns">Featured Event
+            <div class="small-5 large-centered columns">
+              Check out:
               <a href="#" data-reveal-id="pokemon-event-modal">
                 <ul class="event-box">
                   <li class="date">Nov 29th</li>
@@ -142,6 +140,49 @@
       </div>
     </header>
    
+   <div id="header-nav">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="index.html"><img src="img/menubar-logo-vect.svg" alt="Poly Gaming Network"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon">
+            <a href="index.html">
+              <span>Menu</span>
+            </a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="">
+              <a href="games/index.html">Servers</a>
+            </li>
+            <li>
+              <a href="events/index.html">Events</a>
+            </li>
+            <li>
+              <a href="news/index.html">News</a>
+            </li>
+            <li>
+              <a href="about/index.html">About</a>
+            </li>
+            <li>
+              <a href="https://polygamingnetwork.spreadshirt.com/" target="_blank">Store <i class="fa fa-external-link-square"></i> </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li>
+              <a href="https://www.facebook.com/groups/781601601878301/" target="_blank">Facebook Group <i class="fa fa-external-link-square"></i> </a>
+            </li>
+            <li class="has-form">
+              <a href="#" class="secondary button radius" data-reveal-id="loginModal">Login</a>
+            </li>
+
+          </ul>
+        </section>
+      </nav>
+    </div>
+
     <section id="block-about" class="page-block">
       <div class="row">
         <div class="large-4 columns">
@@ -149,7 +190,7 @@
         </div>
         <div class="large-8 columns">
           <p>We're gamers and eSports fans at NYU based in Brooklyn. Together, we host tournaments, gaming groups, online streams, servers, and eSports viewing parties for NYU students.</p>
-          <a href="#" class="large button radius secondary">Join In</a>
+          <a href="" class="large button radius secondary" data-reveal-id="loginModal">Join In</a>
           <a href="/about" class="large button radius secondary">About Us</a>
         </div>
       </div>
@@ -177,7 +218,7 @@
         </div>
       </div>
     </section>
-    <section id="block-pgn-legends" class="page-block">
+    <section id="block-pgn-legends" class="page-block" name="pgn-legends">
       <div class="row">
         <div class="large-4 columns">
           <h2>PGN LEGENDS</h2>
@@ -187,7 +228,7 @@
             <li class="title">Group A Quarterfinals</li>
           </ul></a>
           <a href="#" class="small button radius secondary">Watch on Twitch</a>
-          <a href="#" class="button small radius secondary">Read More</a>
+          <a href="events/index.html#block-pgn-legends" class="button small radius secondary">Read More</a>
         </div>
         <div class="large-6 columns">
           <img class="" src="img/PGNLegends.svg"></img>
@@ -197,7 +238,7 @@
 
     <div id="pgn-legends-event-modal" class="reveal-modal event-modal" data-reveal>
       <h2>PGN Legends Student Tournament</h2>
-      <ul class="lead event-box">
+      <ul class="lead event-box-clear">
         <li class="date">Nov 29th</li>
         <li class="title">6pm to 9pm</li>
       </ul>
@@ -226,7 +267,7 @@
               <li class="title">PGN POKÉMON Tournament</li>
             </ul>
           </a>
-          <a href="https://www.facebook.com/events/943382715688622" target="_blank" class="small button radius secondary">Register</a>
+          <!--<a href="https://www.facebook.com/events/943382715688622" target="_blank" class="small button radius secondary">Register</a>-->
         </div>
         <div class="large-8 columns">
           <img class="" src="img/PGNPokemon.svg"></img>
@@ -236,7 +277,7 @@
 
     <div id="pokemon-event-modal" class="reveal-modal event-modal" data-reveal>
       <h2>PGN Pokemon X/Y Tournament</h2>
-      <ul class="lead event-box">
+      <ul class="lead event-box-clear">
         <li class="date">Nov 29th</li>
         <li class="title">6pm to 9pm, JAB475</li>
       </ul>

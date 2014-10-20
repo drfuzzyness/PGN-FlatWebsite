@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Games - Poly Gaming Network - Play Games and Watch eSports in Brooklyn at NYU Poly</title>
+    <title>Servers - Poly Gaming Network - Play Games and Watch eSports in Brooklyn at NYU Poly</title>
     <!-- Favicon Code -->
     <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
 
@@ -34,62 +34,117 @@
 
   </head>
   <body>
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="../index.html"><img src="../img/menubar-logo-vect.svg" alt="Poly Gaming Network"></a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon">
-          <a href="index.html">
-            <span>Menu</span>
-          </a>
-        </li>
-      </ul>
-      <section class="top-bar-section">
-        <ul class="left">
-          <li class="">
-            <a href="../games/index.html">Games</a>
-          </li>
-          <li>
-            <a href="../events/index.html">Events</a>
-          </li>
-         <li>
-            <a href="../news/index.html">News</a>
-          </li>
-          <li>
-            <a href="../about/index.html">About</a>
-          </li>
-        </ul>
-        <ul class="right">
-          <li class="has-form">
-            <a href="#" class="button" data-reveal-id="loginModal">Login</a>
-          </li>
-        </ul>
-      </section>
-    </nav>
+    <div id="registerModal" class="reveal-modal" data-reveal>
+      <h2>Regsiter</h2>
+      <a class="close-reveal-modal">&#215;</a>
+      <div class="row">
+        <form class="large-6 columns">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <label>Your Name
+                <input type="text" placeholder="John Sexton">
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <label>Your @nyu.edu Email
+              <input type="text" placeholder="you@nyu.edu">
+            </label>
+          </div>
+          <div class="row collapse">
+            <div class="medium-12 columns">
+              <a href="#" class="button radius">Register</a>
+              We'll email you your password
+            </div>
+          </div>
+        </form>
+        <div class="large-5 columns">
+          <a href="#"><img src="../img/full-logo-color-no-margin-01.svg" alt="Poly Gaming Network"></a>
+          <h3>Why Register?</h3>
+          <ol>
+            <li>Register for events</li>
+            <li>Get updates for PGN</li>
+            <li>Verify your NYU Student status to play on servers</li>
+            <li>Join the mailing list</li>
+            <li>Find other players who want to play the games you play</li>
+        </div>
+      </div>   
+    </div>
 
     <div id="loginModal" class="reveal-modal" data-reveal>
       <h2>Login</h2>
       <a class="close-reveal-modal">&#215;</a>
-      <form>
-        <div class="row collapse">
-          <div class="small-12 columns">
-            <label>Email Address
-              <input type="text" placeholder="you@nyu.edu">
+      <div class="row">
+        <form class="large-6 columns">
+          <div class="row collapse">
+            <div class="small-12 columns">
+              <label>Email Address
+                <input type="text" placeholder="you@nyu.edu">
+              </label>
+            </div>
+          </div>
+          <div class="row collapse">
+            <label>Password
+                <input type="password" placeholder="Password">
             </label>
           </div>
-        </div>
-        <div class="row collapse">
-          <label>Password
-              <input type="password" placeholder="Password">
-          </label>
-        </div>
-        <div class="row collapse">
-          <div class="medium-6 columns">
-            <a href="#" class="button postfix">Login</a>
+          <div class="row collapse">
+            <div class="medium-12 columns">
+              <a href="#" class="button radius">Login</a>
+              <a href="#" class="button radius secondary" data-reveal-id="registerModal">Register</a>
+            </div>
+
           </div>
+        </form>
+        <div class="large-5 columns">
+          <a href="#"><img src="../img/full-logo-color-no-margin-01.svg" alt="Poly Gaming Network"></a>
         </div>
-      </form>   
+      </div>   
+    </div>
+
+    
+
+    <div id="header-nav">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="../index.html"><img src="../img/menubar-logo-vect.svg" alt="Poly Gaming Network"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon">
+            <a href="../index.html">
+              <span>Menu</span>
+            </a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="">
+              <a href="../games/index.html">Servers</a>
+            </li>
+            <li>
+              <a href="../events/index.html">Events</a>
+            </li>
+            <li>
+              <a href="../news/index.html">News</a>
+            </li>
+            <li>
+              <a href="../about/index.html">About</a>
+            </li>
+            <li>
+              <a href="../https://polygamingnetwork.spreadshirt.com/" target="_blank">Store <i class="fa fa-external-link-square"></i> </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li>
+              <a href="https://www.facebook.com/groups/781601601878301/" target="_blank">Facebook Group <i class="fa fa-external-link-square"></i> </a>
+            </li>
+            <li class="has-form">
+              <a href="#" class="secondary button radius" data-reveal-id="loginModal">Login</a>
+            </li>
+
+          </ul>
+        </section>
+      </nav>
     </div>
 
     <section id="block-head" class="page-block">
@@ -106,12 +161,12 @@
       <section id="block-tf2" class="page-block">
         <div class="row">
           <div class="large-4 columns">
-            <h2>Team Fortress 2 <span class="label">Game of the Week: Oct 3rd to 10th</span></h2>
+            <h2>Team Fortress 2 <span class="label secondary">Game of the Week: Oct 3rd to 10th</span></h2>
             <p>America's #1 hat themed war simulator is free to play on <a href="http://store.steampowered.com/app/219640/">Steam</a>.</p>
-            <p>Our server is at  <kbd><a href="steam://connect/tf2.polygamers.net:27015">tf2.polygamers.net</kbd></a></p>
+            <p>Our server is at  <a class="secondary button radius" href="steam://connect/tf2.polygamers.net:27015">tf2.polygamers.net</a> with the password <kbd>polygamers</kbd></p>
           </div>
           <div class="large-8 columns">
-            <img class="" src="../img/placeholder.gif"></img>
+            <img class="" src="../img/tf2-gotw.png"></img>
           </div>
         </div>
       </div>
@@ -119,13 +174,12 @@
     <section id="block-minecraft" class="page-block green-block">
       <div class="row">
         <div class="large-4 columns">
-          <h2>Minecraft <span class="secondary label">Game of the Week: Oct 17th to 24th</span></h2>
-          <p>To handle our collection of mods, we us the <a href="#">Technic Launcher</a> to handle Minecraft.</p>
-          <p>To add our modpack, click "add modpack" and paste this into the platform URL: </p><kbd>http://www.technicpack.net/api/modpack/polygaming-mods</kbd>
-          <p>After that, connect to our server at</p><kbd>mc.polygamers.net</kbd>
+          <h2>Minecraft <span class="label">Game of the Week: Oct 17th to 24th</span></h2>
+          <p>It's the game all the kids these days are playing. Hop in and see what the Poly kids are making these days by using the regular Minecraft launcher and plugging in this address.</p>
+          <kbd>mc.polygamers.net</kbd>
         </div>
         <div class="large-8 columns">
-          <img class="" src="../img/placeholder.gif"></img>
+          <img class="" src="../img/minecraft-gotw.png"></img>
         </div>
       </div>
     </section>
@@ -133,33 +187,46 @@
     <section id="block-chivalry" class="page-block blue-block">
       <div class="row">
         <div class="large-4 columns">
-          <h2>Chivalry: Medieval Warfare <span class="secondary label">Game of the Week: Oct 17th to 24th</span></h2>
+          <h2>Chivalry: Medieval Warfare <span class="secondary label">Game of the Week: Nov 7th to 14th</span></h2>
           <p>Chivalry is a medieval themed, multiplayer, battle arena. You can get it on <a href="http://store.steampowered.com/app/219640/">Steam</a>.</p>
           <p>Our server is at  <a href="steam://connect/cmw.polygamers.net:7777" class="button radius secondary">cmw.polygamers.net</a></p>
         </div>
         <div class="large-8 columns">
-          <img class="" src="../img/placeholder.gif"></img>
+          
         </div>
       </div>
     </section>
 
-    
+    <section id="block-unturned" class="page-block red-block">
+      <div class="row">
+        <div class="large-4 columns">
+          <h2>Unturned <span class="secondary label">Game of the Week: Nov 21st to 28th</span></h2>
+          <p>Looks kinda like an even more basic Minecraft, plays like RUST, more complicated than DAYZ, is free. Get it on <a href="http://store.steampowered.com/app/304930/">Steam</a>.</p>
+          <p>Our server is at</p>
+          <kbd>ut.polygamers.net</kbd>
+        </div>
+        <div class="large-8 columns">
+        </div>
+      </div>
+    </section>
 
-    <footer class="row page-block">
-      <div class="large-4 columns">
-        <a href="#"><img src="../img/logo-full-color.png" alt="Poly Gaming Network"></a>
-      </div>
-      <div class="large-4 columns">
-        <p>We're gamers and eSports fans at NYU based in Brooklyn. Together, we host touraments, gaming groups, online streams, servers, and eSports viewing parties for NYU students.</p>
-      </div>
-      <div class="large-4 columns">
-        <h4>Get Informed</h4>
-        <ul class="small-block-grid-4">
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Twitch</li>
-          <li>RSS</li>
-        </ul>
+    <footer class="page-block">
+      <div class="row">
+        <div class="large-3 columns">
+          <a href="#"><img src="../img/full-logo-color.svg" alt="Poly Gaming Network"></a>
+        </div>
+        <div class="large-4 columns">
+          <p><strong>We're gamers and eSports fans at NYU based in Brooklyn.</strong> Together, we host tournaments, gaming groups, online streams, servers, and eSports viewing parties for NYU students.</p>
+        </div>
+        <div class="large-5 columns">
+          <h4>Get Informed</h4>
+          <ul id="social-media-icons" class="small-block-grid-4">
+            <li><a class="button secondary radius" href="https://www.facebook.com/PolyGamingNetwork"><i class="fa fa-facebook fa-2x"></i></a></li>
+            <li><a class="button secondary radius" href="https://twitter.com/polygamenet"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a class="button secondary radius" href="http://www.twitch.tv/polygamingnetwork"><i class="fa fa-twitch fa-2x"></i></a></li>
+            <li><a class="button secondary radius" href="#"><i class="fa fa-rss fa-2x"></a></i></li>
+          </ul>
+        </div>
       </div>
     </footer>
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
