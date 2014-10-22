@@ -9947,7 +9947,7 @@ meta.foundation-mq-topbar {
 /* line 112, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #a9cf37;
+  background: transparent;
 }
 /* line 116, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -9987,7 +9987,7 @@ meta.foundation-mq-topbar {
   height: 65px;
   line-height: 65px;
   position: relative;
-  background: #a9cf37;
+  background: transparent;
   margin-bottom: 0;
 }
 /* line 155, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10104,7 +10104,7 @@ meta.foundation-mq-topbar {
 }
 /* line 263, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #a9cf37;
+  background: transparent;
 }
 /* line 266, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -10134,14 +10134,14 @@ meta.foundation-mq-topbar {
 /* line 294, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #566a19;
+  border-top: solid 1px transparent;
   clear: both;
   height: 1px;
   width: 100%;
 }
 /* line 302, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li {
-  background: #333333;
+  background: transparent;
 }
 /* line 304, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -10152,8 +10152,8 @@ meta.foundation-mq-topbar {
   padding-left: 21.66667px;
   font-family: "Quicksand", serif;
   font-size: 0.8125rem;
-  font-weight: normal;
-  text-transform: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -10276,8 +10276,8 @@ meta.foundation-mq-topbar {
 /* line 339, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
-  background: #404040;
-  color: white;
+  background: white;
+  color: #404040;
 }
 /* line 349, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -10357,7 +10357,7 @@ meta.foundation-mq-topbar {
 }
 /* line 406, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: normal;
+  font-weight: 700;
 }
 /* line 411, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -10400,7 +10400,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 443, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #a9cf37;
+    background: transparent;
     overflow: visible;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10434,7 +10434,7 @@ meta.foundation-mq-topbar {
   }
   /* line 461, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #a9cf37;
+    background: transparent;
   }
 
   /* line 464, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -10466,19 +10466,19 @@ meta.foundation-mq-topbar {
   /* line 487, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
-    background: #404040;
-    color: white;
+    background: white;
+    color: #404040;
   }
   /* line 496, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 21.66667px;
     line-height: 65px;
-    background: #a9cf37;
+    background: transparent;
   }
   /* line 500, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
-    background: #404040;
+    background: white;
   }
   /* line 509, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -10572,9 +10572,9 @@ meta.foundation-mq-topbar {
   }
   /* line 588, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    color: white;
+    color: #404040;
     background-color: #555555;
-    background: #404040;
+    background: white;
   }
   /* line 597, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -10590,14 +10590,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #b4d551;
+    border-right: solid 1px rgba(33, 33, 33, 0);
     clear: none;
     height: 65px;
     width: 0;
   }
   /* line 620, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #a9cf37;
+    background: transparent;
     padding: 0 21.66667px;
     height: 65px;
   }
@@ -10623,8 +10623,8 @@ meta.foundation-mq-topbar {
   /* line 650, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
-    background: #404040;
-    color: white;
+    background: white;
+    color: #404040;
   }
   /* line 659, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
@@ -11715,6 +11715,26 @@ th.hide-for-touch {
   }
 }
 /* line 1, ../scss/_pgnstyle.scss */
+h2, header .tagline {
+  font-weight: lighter;
+}
+
+/* line 5, ../scss/_pgnstyle.scss */
+p a {
+  font-weight: bold;
+  background-color: white;
+  padding: .2em;
+  border-radius: 3px;
+  transition: color 0.3s, background-color 0.3s;
+}
+/* line 12, ../scss/_pgnstyle.scss */
+p a:hover, p a:active {
+  background-color: #dd4a1f;
+  color: white;
+  transition: color 0.3s background-color 0.3s;
+}
+
+/* line 20, ../scss/_pgnstyle.scss */
 header {
   min-height: 600px;
   background: url("../img/sample-tf2meeting.jpg") #a9cf37;
@@ -11723,15 +11743,15 @@ header {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 9, ../scss/_pgnstyle.scss */
+/* line 29, ../scss/_pgnstyle.scss */
 header .row .columns .row {
   margin-top: 10%;
 }
-/* line 12, ../scss/_pgnstyle.scss */
+/* line 32, ../scss/_pgnstyle.scss */
 header h1, header h2, header .tagline {
   color: white;
 }
-/* line 15, ../scss/_pgnstyle.scss */
+/* line 35, ../scss/_pgnstyle.scss */
 header .tagline {
   font-family: 'Quicksand', serif;
   font-weight: 300;
@@ -11739,22 +11759,35 @@ header .tagline {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 23, ../scss/_pgnstyle.scss */
+/* line 43, ../scss/_pgnstyle.scss */
 header #main-logo {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 30, ../scss/_pgnstyle.scss */
-.top-bar .title-area .name:hover {
-  background-color: #404040;
+/* line 49, ../scss/_pgnstyle.scss */
+#header-nav {
+  text-decoration: none;
 }
-/* line 33, ../scss/_pgnstyle.scss */
-.top-bar .top-bar-section .right .has-form a {
+/* line 56, ../scss/_pgnstyle.scss */
+#header-nav .top-bar .title-area .name:hover {
+  background-color: #a9cf37;
+}
+/* line 60, ../scss/_pgnstyle.scss */
+#header-nav .top-bar .top-bar-section ul li {
+  text-shadow: 0 1px 0 #404040;
+}
+/* line 62, ../scss/_pgnstyle.scss */
+#header-nav .top-bar .top-bar-section ul li.hover {
+  text-shadow: none;
+}
+/* line 66, ../scss/_pgnstyle.scss */
+#header-nav .top-bar .top-bar-section .right .has-form a {
   margin-top: 10px;
+  text-shadow: none;
 }
 
-/* line 37, ../scss/_pgnstyle.scss */
+/* line 73, ../scss/_pgnstyle.scss */
 .page-block {
   padding-top: 10%;
   padding-bottom: 10%;
@@ -11762,62 +11795,62 @@ header #main-logo {
   margin-bottom: 0;
 }
 
-/* line 44, ../scss/_pgnstyle.scss */
+/* line 80, ../scss/_pgnstyle.scss */
 .green-block, #block-minecraft, #block-unturned {
   color: white;
   background-color: #a9cf37;
 }
-/* line 47, ../scss/_pgnstyle.scss */
+/* line 83, ../scss/_pgnstyle.scss */
 .green-block h1, #block-minecraft h1, #block-unturned h1, .green-block h2, #block-minecraft h2, #block-unturned h2, .green-block header .tagline, header .green-block .tagline, #block-minecraft header .tagline, header #block-minecraft .tagline, #block-unturned header .tagline, header #block-unturned .tagline, .green-block h3, #block-minecraft h3, #block-unturned h3, .green-block h4, #block-minecraft h4, #block-unturned h4 {
   color: white;
 }
 
-/* line 51, ../scss/_pgnstyle.scss */
-.red-block, #block-pgn-legends, #block-tf2 {
+/* line 87, ../scss/_pgnstyle.scss */
+.red-block, #block-pgn-legends, #block-tf2, #block-chivalry {
   color: white;
   background-color: #dd4a1f;
 }
-/* line 54, ../scss/_pgnstyle.scss */
-.red-block h1, #block-pgn-legends h1, #block-tf2 h1, .red-block h2, #block-pgn-legends h2, #block-tf2 h2, .red-block header .tagline, header .red-block .tagline, #block-pgn-legends header .tagline, header #block-pgn-legends .tagline, #block-tf2 header .tagline, header #block-tf2 .tagline, .red-block h3, #block-pgn-legends h3, #block-tf2 h3, .red-block h4, #block-pgn-legends h4, #block-tf2 h4 {
+/* line 90, ../scss/_pgnstyle.scss */
+.red-block h1, #block-pgn-legends h1, #block-tf2 h1, #block-chivalry h1, .red-block h2, #block-pgn-legends h2, #block-tf2 h2, #block-chivalry h2, .red-block header .tagline, header .red-block .tagline, #block-pgn-legends header .tagline, header #block-pgn-legends .tagline, #block-tf2 header .tagline, header #block-tf2 .tagline, #block-chivalry header .tagline, header #block-chivalry .tagline, .red-block h3, #block-pgn-legends h3, #block-tf2 h3, #block-chivalry h3, .red-block h4, #block-pgn-legends h4, #block-tf2 h4, #block-chivalry h4 {
   color: white;
 }
 
-/* line 58, ../scss/_pgnstyle.scss */
-.blue-block, #block-chivalry {
+/* line 94, ../scss/_pgnstyle.scss */
+.blue-block {
   color: white;
   background-color: #72b5e3;
 }
-/* line 61, ../scss/_pgnstyle.scss */
-.blue-block h1, #block-chivalry h1, .blue-block h2, #block-chivalry h2, .blue-block header .tagline, header .blue-block .tagline, #block-chivalry header .tagline, header #block-chivalry .tagline, .blue-block h3, #block-chivalry h3, .blue-block h4, #block-chivalry h4 {
+/* line 97, ../scss/_pgnstyle.scss */
+.blue-block h1, .blue-block h2, .blue-block header .tagline, header .blue-block .tagline, .blue-block h3, .blue-block h4 {
   color: white;
 }
 
-/* line 65, ../scss/_pgnstyle.scss */
+/* line 101, ../scss/_pgnstyle.scss */
 .grey-block, footer {
   color: white;
   background-color: #404040;
 }
-/* line 68, ../scss/_pgnstyle.scss */
+/* line 104, ../scss/_pgnstyle.scss */
 .grey-block h1, footer h1, .grey-block h2, footer h2, .grey-block header .tagline, header .grey-block .tagline, footer header .tagline, header footer .tagline, .grey-block h3, footer h3, .grey-block h4, footer h4 {
   color: white;
 }
 
-/* line 73, ../scss/_pgnstyle.scss */
+/* line 109, ../scss/_pgnstyle.scss */
 .white-block {
   background-color: white;
 }
 
-/* line 77, ../scss/_pgnstyle.scss */
+/* line 113, ../scss/_pgnstyle.scss */
 .rounded {
   border-radius: 50%;
 }
 
-/* line 80, ../scss/_pgnstyle.scss */
+/* line 116, ../scss/_pgnstyle.scss */
 .page-block h2, .page-block header .tagline, header .page-block .tagline {
   text-transform: uppercase;
 }
 
-/* line 84, ../scss/_pgnstyle.scss */
+/* line 120, ../scss/_pgnstyle.scss */
 #block-about {
   /*background-image: url('../img/sample-tf2meeting3.jpg');*/
   background-color: #a9cf37;
@@ -11827,22 +11860,17 @@ header #main-logo {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 92, ../scss/_pgnstyle.scss */
+/* line 128, ../scss/_pgnstyle.scss */
 #block-about h2, #block-about header .tagline, header #block-about .tagline {
   color: white;
 }
 
-/* line 97, ../scss/_pgnstyle.scss */
-#block-featured-streamers {
-  /*background-image: url('../img/sample-tf2meeting4.jpg');
-  filter: grayscale(1);*/
-  background-color: white;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+/* line 134, ../scss/_pgnstyle.scss */
+#block-featured-streamers a, #block-featured-streamers a:hover, #block-featured-streamers a:active, #block-featured-streamers a:visited {
+  color: white;
 }
 
-/* line 109, ../scss/_pgnstyle.scss */
+/* line 139, ../scss/_pgnstyle.scss */
 #block-pgn-legends {
   background-image: url("../img/sample-tf2meeting3.jpg");
   background-color: #dd4a1f;
@@ -11852,7 +11880,7 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 119, ../scss/_pgnstyle.scss */
+/* line 149, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon {
   background-image: url("../img/sample-tf2meeting2.jpg");
   background-color: #404040;
@@ -11862,37 +11890,27 @@ header #main-logo {
   background-repeat: no-repeat;
   color: white;
 }
-/* line 127, ../scss/_pgnstyle.scss */
+/* line 157, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon p {
   text-shadow: 0 1px 1px black;
 }
-/* line 130, ../scss/_pgnstyle.scss */
+/* line 160, ../scss/_pgnstyle.scss */
 #block-pgn-pokemon h2, #block-pgn-pokemon header .tagline, header #block-pgn-pokemon .tagline {
   color: white;
 }
 
-/* line 135, ../scss/_pgnstyle.scss */
-#block-league-worlds {
-  background-color: #72b5e3;
-  color: white;
-}
-/* line 138, ../scss/_pgnstyle.scss */
-#block-league-worlds h2, #block-league-worlds header .tagline, header #block-league-worlds .tagline {
-  color: white;
-}
-
-/* line 143, ../scss/_pgnstyle.scss */
+/* line 165, ../scss/_pgnstyle.scss */
 #block-head {
   background-color: #a9cf37;
   color: white;
 }
-/* line 146, ../scss/_pgnstyle.scss */
+/* line 168, ../scss/_pgnstyle.scss */
 #block-head h2, #block-head header .tagline, header #block-head .tagline {
   font-weight: 300;
   color: white;
 }
 
-/* line 152, ../scss/_pgnstyle.scss */
+/* line 174, ../scss/_pgnstyle.scss */
 #block-minecraft {
   background-image: url("../img/sample-minecraft1.png");
   background-position: center 25%;
@@ -11900,7 +11918,7 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 161, ../scss/_pgnstyle.scss */
+/* line 183, ../scss/_pgnstyle.scss */
 #block-tf2 {
   background-image: url("../img/sample-tf2.jpg");
   background-blend-mode: lighten;
@@ -11909,16 +11927,16 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 170, ../scss/_pgnstyle.scss */
+/* line 192, ../scss/_pgnstyle.scss */
 #block-chivalry {
-  background-image: url("../img/sample-cmw2.jpg");
+  background-image: url("../img/sample-cmw3.jpg");
   background-blend-mode: lighten;
   background-position: center 10%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 179, ../scss/_pgnstyle.scss */
+/* line 201, ../scss/_pgnstyle.scss */
 #block-unturned {
   background-image: url("../img/sample-unturned.jpg");
   background-blend-mode: darken;
@@ -11927,7 +11945,7 @@ header #main-logo {
   background-repeat: no-repeat;
 }
 
-/* line 192, ../scss/_pgnstyle.scss */
+/* line 214, ../scss/_pgnstyle.scss */
 .post-title {
   display: block;
   height: 300px;
@@ -11936,19 +11954,19 @@ header #main-logo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 199, ../scss/_pgnstyle.scss */
+/* line 221, ../scss/_pgnstyle.scss */
 .post-title h2, .post-title header .tagline, header .post-title .tagline {
   position: absolute;
   bottom: .5em;
 }
-/* line 203, ../scss/_pgnstyle.scss */
+/* line 225, ../scss/_pgnstyle.scss */
 .post-title span {
   position: absolute;
   bottom: .5em;
   margin-left: 2em;
 }
 
-/* line 210, ../scss/_pgnstyle.scss */
+/* line 232, ../scss/_pgnstyle.scss */
 .post-content {
   padding-top: 3em;
   padding-bottom: 3em;
@@ -11956,22 +11974,29 @@ header #main-logo {
   color: black;
 }
 
-/* line 218, ../scss/_pgnstyle.scss */
+/* line 240, ../scss/_pgnstyle.scss */
 #social-media-icons li a {
   color: #404040;
   transition: color .2s;
 }
-/* line 222, ../scss/_pgnstyle.scss */
+/* line 244, ../scss/_pgnstyle.scss */
 #social-media-icons li a:hover {
   color: white;
   transition: color .2s;
 }
-/* line 227, ../scss/_pgnstyle.scss */
+/* line 249, ../scss/_pgnstyle.scss */
 #social-media-icons li a:active {
   color: white;
 }
 
-/* line 232, ../scss/_pgnstyle.scss */
+/* line 254, ../scss/_pgnstyle.scss */
+.copyright-text {
+  color: white;
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+/* line 260, ../scss/_pgnstyle.scss */
 ul.event-box, ul.event-box-clear {
   border-radius: 3px;
   display: inline-block;
@@ -11984,13 +12009,13 @@ ul.event-box, ul.event-box-clear {
   color: #404040;
   transition: background-color .2s;
 }
-/* line 243, ../scss/_pgnstyle.scss */
+/* line 271, ../scss/_pgnstyle.scss */
 ul.event-box:hover, ul.event-box-clear:hover {
   background-color: #404040;
   color: white;
   transition: background-color .2s;
 }
-/* line 248, ../scss/_pgnstyle.scss */
+/* line 276, ../scss/_pgnstyle.scss */
 ul.event-box li.date, ul.event-box-clear li.date {
   float: left;
   display: block;
@@ -12000,7 +12025,7 @@ ul.event-box li.date, ul.event-box-clear li.date {
   text-transform: uppercase;
   width: 3em;
 }
-/* line 257, ../scss/_pgnstyle.scss */
+/* line 285, ../scss/_pgnstyle.scss */
 ul.event-box li.title, ul.event-box-clear li.title {
   display: block;
   float: left;
@@ -12008,46 +12033,46 @@ ul.event-box li.title, ul.event-box-clear li.title {
   font-weight: 700;
 }
 
-/* line 265, ../scss/_pgnstyle.scss */
+/* line 293, ../scss/_pgnstyle.scss */
 ul.event-box-clear {
   background: none;
   color: inherit;
 }
-/* line 269, ../scss/_pgnstyle.scss */
+/* line 297, ../scss/_pgnstyle.scss */
 ul.event-box-clear:hover {
   background-color: inherit;
   color: inherit;
   transition: background-color .2s;
 }
 
-/* line 276, ../scss/_pgnstyle.scss */
+/* line 304, ../scss/_pgnstyle.scss */
 .event-modal {
   background-color: #404040;
   color: white;
 }
-/* line 277, ../scss/_pgnstyle.scss */
+/* line 305, ../scss/_pgnstyle.scss */
 .event-modal#pokemon-event-modal {
   background-color: #404040;
 }
-/* line 280, ../scss/_pgnstyle.scss */
+/* line 308, ../scss/_pgnstyle.scss */
 .event-modal#pgn-legends-event-modal {
   background-color: #dd4a1f;
 }
-/* line 285, ../scss/_pgnstyle.scss */
+/* line 313, ../scss/_pgnstyle.scss */
 .event-modal h2, .event-modal header .tagline, header .event-modal .tagline {
   text-transform: uppercase;
   color: white;
 }
-/* line 289, ../scss/_pgnstyle.scss */
+/* line 317, ../scss/_pgnstyle.scss */
 .event-modal h4 {
   color: white;
 }
 
-/* line 294, ../scss/_pgnstyle.scss */
+/* line 322, ../scss/_pgnstyle.scss */
 a.back-arrow {
   color: white;
 }
-/* line 296, ../scss/_pgnstyle.scss */
+/* line 324, ../scss/_pgnstyle.scss */
 a.back-arrow:hover, a.back-arrow:active {
   color: inherit;
 }

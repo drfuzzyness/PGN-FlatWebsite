@@ -1,7 +1,7 @@
-$pgn-red: #DD4A1F;
-$pgn-green: #A9CF37;
-$pgn-blue: #72B5E3;
-$pgn-grey: #404040;
+$pgn-red: rgba(221,74,31,1);
+$pgn-green: rgba(169,207,55,1);
+$pgn-blue: rgba(114,181,227,1);
+$pgn-grey: rgba(64,64,64,1);
 $primary-color: $pgn-red;
 
 $header-font-family: 'Quicksand', serif;
@@ -13,7 +13,12 @@ $secondary-color: white;
 $secondary-button-bg-hover: $pgn-grey;
 
 $topbar-height: 65px;
-$topbar-bg-color: $pgn-green !default;
-$topbar-link-bg-hover: $pgn-grey !default;
+$topbar-bg-color: transparent !default;
+$topbar-link-bg-hover: white !default;
+$topbar-dropdown-bg: transparent;
+$topbar-link-color-hover: $pgn-grey;
+
+$topbar-link-text-transform: uppercase;
+$topbar-link-weight: 700;
 
 $body-bg: $pgn-green;

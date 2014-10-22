@@ -1,3 +1,22 @@
+h2{
+	font-weight: lighter;
+}
+
+p a {
+	font-weight: bold;
+	background-color: white;
+	padding: .2em;
+	border-radius: 3px;
+	transition: color 0.3s, background-color 0.3s;
+
+	&:hover, &:active {
+		background-color: $pgn-red;
+		color: white;
+		transition: color 0.3s background-color 0.3s;
+	}
+
+}
+
 header {
 	min-height: 600px;
 	background: url("../img/sample-tf2meeting.jpg") $pgn-green;
@@ -5,6 +24,7 @@ header {
 	background-position: center 25%;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 	color: white;
 	.row .columns .row {
 		margin-top: 10%;
@@ -26,12 +46,28 @@ header {
 	}
 }
 
-.top-bar {
-	.title-area .name:hover{
-		background-color: $pgn-grey;
+#header-nav {
+	text-decoration: none;
+	&.fixed {
+		//background: linear-gradient(to bottom, $pgn-grey 0%, transparent 100%); 
 	}
-	.top-bar-section .right .has-form a {
-		margin-top: 10px;
+	.top-bar{
+
+		.title-area .name:hover{
+			background-color: $pgn-green;
+		}
+		.top-bar-section {
+			ul li{
+				text-shadow: 0 1px 0 $pgn-grey;
+				&.hover{
+					text-shadow: none;
+				}
+			}
+			.right .has-form a {
+				margin-top: 10px;
+				text-shadow: none;
+			}
+		}
 	}
 }
 .page-block{
@@ -95,14 +131,8 @@ header {
 }
 
 #block-featured-streamers {
-	/*background-image: url('../img/sample-tf2meeting4.jpg');
-	filter: grayscale(1);*/
-	background-color: white;
-	
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	h2{
+	a, a:hover, a:active, a:visited {
+		color: white;
 	}
 }
 
@@ -127,14 +157,6 @@ header {
 	p {
 		text-shadow: 0 1px 1px black;
 	}
-	h2 {
-		color: white;
-	}
-}
-
-#block-league-worlds {
-	background-color: $pgn-blue;
-	color: white;
 	h2 {
 		color: white;
 	}
@@ -168,8 +190,8 @@ header {
 }
 
 #block-chivalry {
-	@extend .blue-block;
-	background-image: url('../img/sample-cmw2.jpg');
+	@extend .red-block;
+	background-image: url('../img/sample-cmw3.jpg');
 	background-blend-mode: lighten;
 	background-position: center 10%;
 	background-size: cover;
@@ -227,6 +249,12 @@ footer{
 	li a:active{
 		color: white;
 	}
+}
+
+.copyright-text {
+	color: white;
+	font-size: .8em;
+	text-transform: uppercase;
 }
 
 ul.event-box {
